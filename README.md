@@ -22,7 +22,7 @@
   <ul>
     <li>Calculating prevalence of reproducibility.</li>
     <li>Calculating open science scores.</li>
-    <li>Describing which grants that are reproducible</li>
+    <li>Describing which grants that are resulting to reproducible publications</li>
     <li>Describing grant proposals characteristics with tables and graphs.</li>
     <li>Describing predicted vs actual reproducibility in 2x2 tables.</li>
     <li>Producing Accuracy Metrics (Se, Sp, PPV, NPV, overall accuracy).</li>
