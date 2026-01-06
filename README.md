@@ -4,7 +4,7 @@
     The <em>Funders study</em> is the short name for our study:<br>
     <strong>“Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications.”</strong>
 
-    Protocol registration: https://doi.org/10.17605/OSF.IO/NS4V9
+    Study registration: https://doi.org/10.17605/OSF.IO/NS4V9
   </p>
 
   <h2>Materials: Grant proposals</h2>
