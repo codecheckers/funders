@@ -5,12 +5,14 @@
     <strong>“Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications.”</strong>
 
     Study registration: https://doi.org/10.17605/OSF.IO/NS4V9
+    Study protocol: https://osf.io/ew62u/files/6cm3z
+    Open Science checklist: https://osf.io/ew62u/files/dp4x2
   </p>
 
   <h2>Materials: Grant proposals</h2>
-  <ol>
+  <ul>
     <li><code>Grants.bib</code></li>
-  </ol>
+  </ul>
 
   <h2>Data used for this study</h2>
   <ol>
