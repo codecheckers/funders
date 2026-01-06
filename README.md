@@ -7,6 +7,11 @@
     Protocol registration: https://doi.org/10.17605/OSF.IO/NS4V9
   </p>
 
+  <h2>Materials: Grant proposals</h2>
+  <ol>
+    <li><code>Grants.bib</code></li>
+  </ol>
+
   <h2>Data used for this study</h2>
   <ol>
      <li><code>db_master_grants_fullset.xlsx</code></li>
