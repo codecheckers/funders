@@ -38,6 +38,13 @@
  
   <h2>Software</h2>
      This analysis was done using R version 4.5.2 (https://www.r-project.org/).
+
+ <h2>Additional</h2>
+  Diagram process from screening to reproducibility checks: 
+ <ul>
+    <li><code>Funders_results.drawio</code></li>
+    <li><code>Funders_results.png</code></li>
+ </ul>
 </section>
 
 
