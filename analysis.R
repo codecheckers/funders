@@ -27,7 +27,7 @@ library(gt)
 library(lattice)
 library(gtsummary)
 library(webshot2)
-
+library(stringr)
 
 # Data preparation --------------------------------------------------------
 
