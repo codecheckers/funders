@@ -94,7 +94,7 @@ ggsave("year_summary.jpeg",
 tg_country <- df |>
         tbl_summary(
                 include = country,
-                label = list(country ~ "Country or Region")
+                label = list(country ~ "Funding Source")
         )
 
 tg_funder <- df |>
