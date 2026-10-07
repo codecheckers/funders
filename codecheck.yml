@@ -1,0 +1,71 @@
+---
+version: https://codecheck.org.uk/spec/config/1.0
+
+paper:
+  title: "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications"
+  authors:
+    - name: Ayu Putu Madri Dewi
+      ORCID: 0000-0001-7645-6424
+    - name: Anne Floor Holtrop
+      ORCID: 0009-0004-5165-0481
+    - name: Nicholas J DeVito
+      ORCID: 0000-0001-8286-1995
+    - name: Melissa L. Rethlefsen
+      ORCID: 0000-0001-5322-9368
+    - name: Zulfan Zazuli
+      ORCID: 0000-0002-1264-9558
+    - name: Mathieu Repiquet
+      ORCID: 0009-0005-4719-6607
+    - name: Ka Hin Tai
+      ORCID: 0009-0001-7072-2178
+    - name: Constant Vinatier
+      ORCID: 0000-0002-6899-1838
+    - name: Monika Varga
+      ORCID: 0000-0002-6886-5751
+    - name: Stefan Wouters
+      ORCID: 0000-0002-5243-6186
+    - name: Hengky Kurniawan
+      ORCID: 0000-0002-4463-8917
+    - name: Nynke Swart
+      ORCID: 0000-0002-4553-6234
+    - name: Gowri Gopalakrishna
+      ORCID: 0000-0003-3847-3906
+    - name: Inge Stegeman
+      ORCID: 0000-0001-5154-7178
+    - name: Mariska Leeflang
+      ORCID: 0000-0001-5960-0471
+  reference: https://doi.org/10.31222/osf.io/dvhux_v1
+
+manifest:
+  - file: tbl_check.png
+    comment: Table 1 in the manuscript.
+  - file: tbl_ctrl.png
+    comment: Table 2 in the manuscript.
+  - file: accuracy_table.png
+    comment: Table 3 in the manuscript.
+  - file: tg_funder.png
+    comment: Annex 2, Table 1 in the manuscript.
+  - file: tg_country.png
+    comment: Annex 2, Table 2 in the manuscript.
+  - file: tg_field.png
+    comment: Annex 2, Table 3 in the manuscript.
+  - file: year_summary.jpeg
+    comment: Annex 2, Figure A in the manuscript.
+  - file: ROC_both.jpeg
+    comment: Annex 2, Figure B in the manuscript.
+
+codechecker:
+  - name: Merel C. Postema
+    ORCID: 0000-0002-1536-7062
+
+summary: >
+  Partial reproduction. The gt package could not be installed in the Amsterdam UMC
+  myDRE environment (Error: Chrome debugging port not open after 10 seconds), so the
+  gtsave() lines were commented out and the tables saved manually. Only the first
+  rows of each table could be viewed and these were reproducible; reproducibility of
+  the complete tables could not be verified. Two minor modifications to the original
+  code were needed: installing missing packages and loading stringr.
+repository: https://github.com/codecheckers/funders
+check_time: "2026-07-28"
+certificate: 2026-026
+report: https://doi.org/10.5281/zenodo.23081945
